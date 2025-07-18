@@ -1,8 +1,29 @@
 /vendor/
-.env
+/.env
 .DS_Store
 *.log
 *.lock
 .idea/
 *.bak
 node_modules/
+
+# Composer generated files
+composer.lock
+
+# PHPStorm project files
+/.idea/
+
+/tests/_output/
+/tests/_support/_generated/
+
+/phpunit.result.cache
+
+# Cache and session files
+/cache/
+/sessions/
+
+# Logs
+*.log
+
+# Backup files
+*.bak
